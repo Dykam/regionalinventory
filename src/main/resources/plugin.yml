@@ -1,0 +1,10 @@
+name: ${project.name}
+version: ${project.version}
+description: ${project.description}
+main: ${plugin.mainClass}
+
+commands:
+  regionalinventory:
+    aliases: [ri]
+    usage: /<command> reload
+    description: Reloads Regional Inventory config.
